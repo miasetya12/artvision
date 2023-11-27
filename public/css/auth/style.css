@@ -1,0 +1,67 @@
+/* @font-face {
+    font-family: Amiri;
+    src: url("/fonts/Amiri-Regular.tff");
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,300&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.f-amiri {
+    font-family: "Amiri";
+}
+
+.f-Rmono {
+    font-family: "Roboto Mono";
+}
+
+.sub-color {
+    color: #2a2d36;
+}
+
+.form-label {
+    font-family: "Amiri";
+}
+
+.form-control {
+    border-radius: 0;
+    border-color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-submit {
+    width: 100%;
+    border-radius: 0;
+    padding: 0.7rem;
+    font-family: "Amiri";
+}
+
+.side-login-img {
+    min-height: 100vh;
+    background: url("/assets/images/login-side-image.png");
+    background-size: cover;
+}
+
+.form-heading p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: rgba(42, 45, 54, 0.7);
+}
+
+.form-heading h1 {
+    font-weight: 700;
+    font-size: 40px;
+
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #2a2d36;
+}

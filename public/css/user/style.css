@@ -1,0 +1,643 @@
+/* @font-face {
+    font-family: Amiri;
+    src: url("/fonts/Amiri-Regular.tff");
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,300&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.hitam {
+    color: #000000;
+}
+.coklat {
+    color: #a68c5c;
+}
+.coklat-tua {
+    color: #8d6553;
+}
+.f-amiri {
+    font-family: "Amiri";
+}
+.kotak {
+    border: 2px solid #a68c5c;
+    padding: 10px;
+    background-color: transparent;
+    color: #f0f0f0;
+}
+
+.kontak-kami {
+    text-align: center;
+    font-family: "Amiri";
+}
+
+.kontak-kami > h3 {
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: 0.14em;
+}
+
+.kontak-kami > p {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+}
+
+.kontak-kami > h6 {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.14em;
+}
+.judul {
+    font-family: "Amiri";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.068em;
+
+    color: #f0f0f0;
+}
+
+.f-Rmono {
+    font-family: "Roboto Mono";
+}
+
+.sub-color {
+    color: #2a2d36;
+}
+
+.form-label {
+    font-family: "Amiri";
+}
+
+.form-control {
+    border-radius: 0;
+    border-color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-submit {
+    width: 100%;
+    border-radius: 0;
+    padding: 0.7rem;
+    font-family: "Amiri";
+}
+
+.img-bg {
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 9)),
+        url(/assets/landing/bunga.png);
+    background-size: cover;
+    min-height: 60rem;
+}
+
+.img-bg2 {
+    width: 100vw;
+    min-height: 14rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(/assets/landing/patung.png) no-repeat;
+    background-size: cover;
+}
+
+.kotak-kontak {
+    text-align: center;
+}
+
+.kontak-border {
+    border: 2px solid #333333;
+    border-radius: 24px;
+}
+
+.kontak-border > h3 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.form-heading p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: rgba(42, 45, 54, 0.7);
+}
+
+.form-heading h1 {
+    font-weight: 700;
+    font-size: 40px;
+
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #2a2d36;
+}
+
+.jumbotron {
+    width: 100vw;
+    min-height: 800px;
+    background: url(/assets/landing/jumbotron.png) no-repeat;
+    background-size: cover;
+}
+
+.konten-jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    line-height: 60px;
+    padding: 20px;
+}
+
+.konten-jumbotron p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #f0f0f0;
+}
+
+.konten-jumbotron h1 {
+    font-weight: 400;
+    color: #f0f0f0;
+    align-items: center;
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: 0.14em;
+}
+
+.konten-jumbotron a {
+    border: 2px solid #a68c5c;
+    border-radius: 0;
+    color: #f0f0f0;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    padding: 1rem 2rem;
+    margin-top: 20px;
+    letter-spacing: 0.05em;
+    background-color: transparent;
+}
+
+.quotes {
+    min-height: 220px;
+    width: 100%;
+    flex-direction: row;
+}
+.quotes h1 {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: 0.003em;
+    color: #a68c5c;
+}
+
+.quotes p {
+    font-size: 96px;
+    line-height: 60px;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
+
+.judul-berita p {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #f0f0f0;
+}
+
+.judul-berita h3 {
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: 0.14em;
+}
+
+.judul-berita h6 {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.14em;
+    max-width: 777px;
+    color: #f0f0f0;
+}
+
+.card-1 {
+    /* min-width: 420px;
+    min-height: 480px; */
+    background: rgba(141, 101, 83, 0.4);
+    box-shadow: 0px 4px 4px rgba(240, 240, 240, 0.25);
+    border-radius: 0;
+}
+/* .card-event {
+    padding-top: 100px;
+} */
+.card-body-event p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #f0f0f0;
+}
+.see p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.14em;
+    text-decoration-line: underline;
+    color: #f0f0f0;
+    text-shadow: 0px 4px 4px rgba(141, 101, 83, 0.25);
+}
+
+.judul-preview p {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+}
+
+.judul-preview h3 {
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: 0.14em;
+}
+
+.judul-preview h6 {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.14em;
+}
+
+.img-container {
+    height: 22.5rem;
+    /* padding: 0; */
+    /* overflow: hidden; */
+}
+
+.art-img {
+    width: 100%;
+    height: 100%;
+}
+.siap {
+    min-height: 14rem;
+}
+
+.judul-siap {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 70px;
+    letter-spacing: 0.068em;
+    color: #f0f0f0;
+}
+.siap button {
+    border: 2px solid #a68c5c;
+    border-radius: 0;
+    color: #f0f0f0;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    padding: 1rem 2rem;
+    letter-spacing: 0.05em;
+    background-color: transparent;
+}
+
+.t-area {
+    min-height: 12rem !important;
+}
+
+.text-detail > h3:first-child {
+    letter-spacing: 0.06em;
+    display: inline-block;
+    padding-bottom: 0.4rem;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid #8d6553;
+}
+
+/* Event Jumbotron */
+
+.event-jumbotron {
+    width: 100vw;
+    min-height: 600px;
+    background: url(/assets/landing/jumbotron.png) no-repeat;
+    background-size: cover;
+}
+
+.event-konten-jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+    line-height: 60px;
+    padding: 20px;
+}
+
+.event-konten-jumbotron p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #f0f0f0;
+}
+
+.event-konten-jumbotron h1 {
+    font-weight: 400;
+    color: #f0f0f0;
+    align-items: center;
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: 0.14em;
+}
+
+.event-kotak {
+    margin-top: -7rem;
+    min-height: 30vh;
+    border-radius: 1.2rem;
+    background-color: #f0f0f0;
+}
+
+.event-badge {
+    min-width: 10rem;
+    max-width: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0;
+    font-size: 1em;
+    letter-spacing: 0.018em;
+}
+
+.event-btn {
+    border: 2px solid #a68c5c;
+    width: fit-content;
+    border-radius: 0;
+    color: #f0f0f0;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    padding: 1rem 2rem;
+    margin-top: 20px;
+    letter-spacing: 0.05em;
+    background-color: transparent;
+}
+
+.event-tanggal > a {
+    display: inline-block;
+}
+
+.event-card {
+    background-color: #363636;
+    /* color: #ffffff; */
+}
+
+.dataTables_paginate a.paginate_button.current {
+    background-color: black !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: white !important;
+}
+
+.bawah {
+    margin-top: 500px;
+}
+
+/* Landing Blade.php */
+.kumpulan-art img {
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.footer p {
+    font-size: .9rem;
+}
+
+.footer .useful-links a {
+    font-size: .9rem;
+}
+
+.footer .useful-links h2 {
+    font-size: 1.3rem;
+}
+
+.footer .follow-us h2 {
+    font-size: 1.3rem;
+}
+
+.footer .copyright a {
+    font-size: .9rem;
+}
+
+.footer .circle-icon {
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #6f90b0;
+    padding: 0.5em 0.6em;
+}
+/* End Landing Blade.php */
+
+/* Gallery Blade.php */
+
+
+/* End Gallery Blade.php */
+
+@media (max-width: 736px) {
+    .jumbotron {
+        width: 100%;
+        min-height: 70px;
+        background: url(/assets/landing/jumbotron.png) no-repeat;
+        background-size: cover;
+    }
+    .konten-jumbotron {
+        min-height: 70px;
+    }
+    .konten-jumbotron h1 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400;
+        color: #f0f0f0;
+        align-items: center;
+        font-size: 23px;
+        line-height: 30px;
+        letter-spacing: 0.14em;
+    }
+    .konten-jumbotron p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: #f0f0f0;
+    }
+
+    .konten-jumbotron a {
+        padding: 8px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .quotes {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        min-height: 80px;
+        width: 100%;
+    }
+    .quotes h1 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.003em;
+
+        color: #a68c5c;
+    }
+
+    .judul-berita p {
+        font-size: 15px;
+        line-height: 10px;
+        letter-spacing: 0.005em;
+    }
+
+    .judul-berita h3 {
+        font-size: 28px;
+        line-height: 50px;
+        letter-spacing: 0.14em;
+    }
+
+    .judul-berita h6 {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.14em;
+        max-width: 777px;
+        color: #f0f0f0;
+    }
+
+    /* .card-event {
+        padding-top: 45px;
+    } */
+    .card-1 {
+        width: 80%;
+        /* min-width: 5rem; */
+        background: rgba(141, 101, 83, 0.4);
+        box-shadow: 0px 4px 4px rgba(240, 240, 240, 0.25);
+        border-radius: 0;
+    }
+    .card-body-event p {
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.005em;
+        color: #f0f0f0;
+    }
+    /* .card-img-top {
+        scale: 50%;
+    } */
+    .judul-preview p {
+        font-size: 15px;
+        line-height: 10px;
+        letter-spacing: 0.005em;
+    }
+
+    .judul-preview h3 {
+        font-size: 28px;
+        line-height: 50px;
+        letter-spacing: 0.14em;
+    }
+
+    .judul-preview h6 {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.14em;
+    }
+    .img-container {
+        height: 12rem;
+        /* padding: 0; */
+        /* overflow: hidden; */
+    }
+
+    .img-bg2 {
+        min-height: 7rem;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url(/assets/landing/patung.png) no-repeat;
+        background-size: cover;
+    }
+
+    .siap {
+        min-height: 7rem;
+    }
+
+    .judul-siap {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .siap button {
+        margin-left: 20px;
+        font-size: 10px;
+        line-height: 10px;
+        letter-spacing: 0.005em;
+        padding: 0.5rem 1rem;
+    }
+    .kontak-kami > p {
+        font-size: 15px;
+        line-height: 10px;
+        letter-spacing: 0.005em;
+    }
+    .kontak-kami > h3 {
+        font-size: 28px;
+        line-height: 50px;
+        letter-spacing: 0.14em;
+    }
+
+    .kontak-kami > h6 {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.14em;
+    }
+
+    /* .kontak-border {
+        max-width: 150px;
+    } */
+
+    .kontak-border h3 {
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .kontak-border p {
+        font-weight: normal;
+        font-size: 12px;
+    }
+
+    /* .kontak-border > h3 {
+        font-weight: normal;
+        font-size: 0.5rem;
+    }
+    .kontak-border > p {
+        font-weight: normal;
+        font-size: 0.25rem;
+    }
+    .kelebihan{
+        padding: 2rem;
+    } */
+
+    .r-card p:nth-child(1){
+        font-size: .8rem;
+    }
+
+    .r-card p:nth-child(2){
+        font-size: .7rem;
+    }
+
+    .r-card p:nth-child(3){
+        font-size: .7rem;
+    }
+
+    .r-card a {
+        font-size: .8rem;
+    }
+}

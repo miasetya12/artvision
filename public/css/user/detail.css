@@ -1,0 +1,19 @@
+.bidd p {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #f0f0f0;
+}
+
+.bidd h3 {
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: 0.14em;
+}
+
+.bidd h6 {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
